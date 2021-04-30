@@ -1,0 +1,27 @@
+{
+  "name": "aws-sdk-js-v3-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/credential-provider-node": "^3.13.1",
+    "@aws-sdk/node-http-handler": "^3.13.1",
+    "@aws-sdk/protocol-http": "^3.13.1",
+    "@aws-sdk/signature-v4": "^3.13.1",
+    "@types/elasticsearch": "^5.0.37",
+    "@types/node": "^15.0.1",
+    "aws-sdk": "^2.896.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@acuris/aws-es-connection": "^2.1.0",
+    "@elastic/elasticsearch": "^7.12.0"
+  }
+}
